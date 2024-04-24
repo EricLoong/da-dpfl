@@ -1,0 +1,25 @@
+#!/bin/bash
+python3.8 /nfs/ppfl/fedml_dadpfl/main_dadpfl.py --model 'resnet18' \
+--dataset 'cifar10' \
+--partition_method 'dir' \
+--partition_alpha '0.3' \
+--batch_size 128 \
+--lr 0.1 \
+--lr_decay 0.998 \
+--epochs 5 \
+--client_num_in_total 100 --frac 0.1 \
+--prune_scale 1 \
+--rigl \
+--comm_round 500 \
+--dense_ratio 0.5 \
+--anneal_factor 0.3 \
+--target_sparsity 0.8 \
+--seed 2023 \
+--regrow \
+--reconfig_reduce 1.3 \
+--early_prune_threshold 0.02 \
+--different_initial \
+--new_schedule \
+--rr_interval 1 \
+--max_wait 10 \
+--cs 'random' \

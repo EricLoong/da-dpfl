@@ -1,0 +1,25 @@
+#!/bin/bash
+python3.8 /nfs/ppfl/fedml_dadpfl/main_dadpfl.py --model 'alex' \
+--dataset 'HAM10000' \
+--partition_method 'dir' \
+--partition_alpha '0.5' \
+--batch_size 128 \
+--lr 0.1 \
+--lr_decay 0.997 \
+--epochs 5 \
+--client_num_in_total 100 --frac 0.1 \
+--prune_scale 1 \
+--rigl \
+--comm_round 300 \
+--dense_ratio 0.5 \
+--anneal_factor 0.3 \
+--target_sparsity 0.7 \
+--seed 2022 \
+--regrow \
+--early_prune_threshold 0.022 \
+--reconfig_reduce 1.4 \
+--different_initial \
+--new_schedule \
+--rr_interval 1 \
+--cs 'random' \
+--tqdm \
