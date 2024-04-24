@@ -7,9 +7,9 @@ env/
 
 # avoid pushing large datasets
 data/
-fedml_api/data_preprocessing/emnist/
-fedml_api/data_preprocessing/cifar10/
-fedml_api/data_preprocessing/cifar100/
+#fedml_api/data_preprocessing/emnist/
+#fedml_api/data_preprocessing/cifar10/
+#fedml_api/data_preprocessing/cifar100/
 DockerFiles/
 
 spdfl.yaml
