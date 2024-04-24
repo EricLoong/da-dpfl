@@ -28,7 +28,7 @@ class client:
         local_sample_number,
         args,
         device,
-        model_trainer: fedml_api.standalone.adpfl.adpfl_model_trainer,
+        model_trainer: fedml_api.standalone.dadpfl.dadpfl_model_trainer,
         logger,
     ):
         self.logger = logger
