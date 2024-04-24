@@ -45,12 +45,16 @@ in config.yaml with the root of your project
 ```
 /your_path_to_project/
 ```
-### Install dependencies
+### Install dependencies and setup the permissions
 ```
 pip3 install -r requirements.txt
 ```
-### Run CIFAR10 experiments
 ```
+sh setup_permission.sh
+```
+
+### Run CIFAR10 experiments
+
 # Format - sh /your_directory/algorithm_name/data_name.sh
 ```
 - sh /your_path_to_fedml/fedml_adpfl/cifar10.sh
