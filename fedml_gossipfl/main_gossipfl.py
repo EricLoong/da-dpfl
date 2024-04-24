@@ -8,7 +8,7 @@ import numpy as np
 import torch
 from datetime import datetime
 
-sys.path.insert(0, os.path.abspath("/nfs/ppfl/"))
+sys.path.insert(0, os.path.abspath("/nfs/da-dpfl/"))
 from fedml_api.model.cv.vgg import vgg11
 from fedml_api.model.cv.AlexNet import AlexNetCIFAR, AlexNet
 from fedml_api.data_preprocessing.cifar10.data_loader import load_partition_data_cifar10
@@ -73,7 +73,7 @@ def add_args(parser):
     parser.add_argument(
         "--data_dir",
         type=str,
-        default="/nfs/ppfl/data/",
+        default="/nfs/da-dpfl/data/",
         help="data directory, please feel free to change the directory to the right place",
     )
 

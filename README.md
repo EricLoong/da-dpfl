@@ -39,7 +39,7 @@
 ### Change the directory to the root of the your project
 replace work_dir
 ```
-/nfs/ppfl/
+/nfs/da-dpfl/
 ```
 in config.yaml with the root of your project
 ```

@@ -7,7 +7,7 @@ import numpy as np
 import torch
 from datetime import datetime
 
-sys.path.insert(0, os.path.abspath("/nfs/ppfl/"))
+sys.path.insert(0, os.path.abspath("/nfs/da-dpfl/"))
 from fedml_api.data_preprocessing.cifar100.data_loader import load_partition_data_cifar100
 
 from fedml_api.model.cv.vgg import vgg16, vgg11
@@ -73,7 +73,7 @@ def add_args(parser):
     parser.add_argument(
         "--data_dir",
         type=str,
-        default="/nfs/ppfl/data/",
+        default="/nfs/da-dpfl/data/",
         help="data directory, please feel free to change the directory to the right place",
     )
 
@@ -317,7 +317,7 @@ if __name__ == "__main__":
 
     cur_dir = os.path.abspath(__file__).rsplit("/", 1)[0]
     log_path = (
-        "/nfs/ppfl/fedml_ditto/ditto/LOG/" + args.dataset + "/" + args.identity + ".log"
+        "/nfs/da-dpfl/fedml_ditto/ditto/LOG/" + args.dataset + "/" + args.identity + ".log"
     )
     logger = logger_config(log_path=log_path, logging_name=args.identity)
     logger.info(args)

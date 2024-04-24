@@ -1,5 +1,5 @@
 #!/bin/bash
-python /nfs/ppfl/fedml_beer/main_beer.py --model 'resnet18' \
+python /nfs/da-dpfl/fedml_beer/main_beer.py --model 'resnet18' \
 --dataset 'cifar10' \
 --partition_method 'dir' \
 --partition_alpha '0.3' \

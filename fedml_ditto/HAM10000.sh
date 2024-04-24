@@ -1,5 +1,5 @@
 #!/bin/bash
-python3.8 /nfs/ppfl/fedml_ditto/main_ditto.py --model 'alex' \
+python3.8 /nfs/da-dpfl/fedml_ditto/main_ditto.py --model 'alex' \
 --dataset 'HAM10000' \
 --partition_method 'dir' \
 --partition_alpha '0.5' \

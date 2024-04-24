@@ -1,5 +1,5 @@
 #!/bin/bash
-python3.8 /nfs/ppfl/fedml_dadpfl/main_dadpfl.py --model 'resnet18' \
+python3.8 /nfs/da-dpfl/fedml_dadpfl/main_dadpfl.py --model 'resnet18' \
 --dataset 'cifar10' \
 --partition_method 'dir' \
 --partition_alpha '0.3' \

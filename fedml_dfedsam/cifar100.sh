@@ -1,5 +1,5 @@
 #!/bin/bash
-python3.8 /nfs/ppfl/fedml_dfedsam/main_dfedsam.py --model 'vgg11' \
+python3.8 /nfs/da-dpfl/fedml_dfedsam/main_dfedsam.py --model 'vgg11' \
 --dataset 'cifar100' \
 --partition_method 'dir' \
 --partition_alpha '0.3' \

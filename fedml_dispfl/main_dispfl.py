@@ -11,7 +11,7 @@ import torch
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
 logger = logging.getLogger(__name__)
 sys.path.insert(
-    0, os.path.abspath("/nfs/ppfl/")
+    0, os.path.abspath("/nfs/da-dpfl/")
 )  # Change all paths the same as this path
 from fedml_api.data_preprocessing.HAM10000.data_loader import (
     load_partition_data_HAM10000,
@@ -68,7 +68,7 @@ def add_args(parser):
     parser.add_argument(
         "--data_dir",
         type=str,
-        default="/nfs/ppfl/data/",
+        default="/nfs/da-dpfl/data/",
         help="data directory, please feel free to change the directory to the right place",
     )
 
@@ -372,7 +372,7 @@ if __name__ == "__main__":
 
     cur_dir = os.path.abspath(__file__).rsplit("/", 1)[0]
     log_path = (
-        "/nfs/ppfl/fedml_dispfl/dispfl/LOG/"
+        "/nfs/da-dpfl/fedml_dispfl/dispfl/LOG/"
         + args.dataset
         + "/"
         + args.identity
