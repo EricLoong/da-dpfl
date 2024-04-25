@@ -59,7 +59,7 @@ sh setup_permission.sh
 ```
 - sh /your_path_to_fedml/fedml_adpfl/cifar10.sh
 - sh /your_path_to_fedml/fedml_dispfl/cifar10.sh
-
+```
 
 
 
