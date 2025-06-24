@@ -57,7 +57,7 @@ sh setup_permission.sh
 
 # Format - sh /your_directory/algorithm_name/data_name.sh
 ```
-- sh /your_path_to_fedml/fedml_adpfl/cifar10.sh
+- sh /your_path_to_fedml/fedml_dadpfl/cifar10.sh
 - sh /your_path_to_fedml/fedml_dispfl/cifar10.sh
 ```
 
