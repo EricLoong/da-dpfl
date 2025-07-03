@@ -69,3 +69,21 @@ sh setup_permission.sh
 - https://github.com/diaoenmao/Pruning-Deep-Neural-Networks-from-a-Sparsity-Perspective
 - https://github.com/rong-dai/DisPFL
 - https://github.com/liboyue/beer
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```
+@ARTICLE{11060892,
+  author={Long, Qianyu and Wang, Qiyuan and Anagnostopoulos, Christos and Bi, Daning},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Decentralized Personalized Federated Learning Based on a Conditional “Sparse-to-Sparser” Scheme}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Training;Costs;Computational modeling;Adaptation models;Convergence;Data models;Servers;Network topology;Topology;Federated learning;Decentralized federated learning (DFL);model pruning;personalized FL (PFL);sparsification},
+  doi={10.1109/TNNLS.2025.3580277}}
+
+```
